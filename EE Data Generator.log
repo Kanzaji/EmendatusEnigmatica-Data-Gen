@@ -1,0 +1,6 @@
+[16-03-2023 21:09:14.235] [INFO] Old Log file found! "D:\Github stuff\EmendatusEnigmatica-Data-Gen\.\EE Data Generator.log" file replaced with empty one.
+[16-03-2023 21:09:14.241] [INFO] Logger Initialization completed.
+[16-03-2023 21:09:14.242] [INFO] -----------------------------------------------
+[16-03-2023 21:09:14.242] [INFO] Running EE Data Generator DEVELOP
+[16-03-2023 21:09:14.242] [INFO] -----------------------------------------------
+[16-03-2023 21:09:14.243] [WARN] data.json doesn't exists! Generating a template...

@@ -3,26 +3,26 @@ package com.kanzaji.eedatagen.jsons.deposits;
 import com.kanzaji.eedatagen.jsons.JSONUtilityClasses;
 
 public class Geode {
-    public static String type;
-    public static String dimension;
-    public static String[] biomes;
-    public static String registryName;
-    public static Config config;
+    public String type;
+    public String dimension;
+    public String[] biomes;
+    public String registryName;
+    public Config config;
 
     public static class Config {
-        public static JSONUtilityClasses.Blocks outerShellBlocks;
-        public static JSONUtilityClasses.Blocks innerShellBlocks;
-        public static JSONUtilityClasses.Blocks innerBlocks;
-        public static JSONUtilityClasses.Blocks fillBlocks;
-        public static String[] fillerTypes;
-        public static String[] clusters;
-        public static int chance;
-        public static int crackChance;
-        public static int minYLevel;
-        public static int maxYLevel;
-        public static String placement;
-        public static String rarity;
-        public static boolean generateSample;
-        public static JSONUtilityClasses.sampleBlocks[] sampleBLocks;
+        public JSONUtilityClasses.blocks outerShellBlocks;
+        public JSONUtilityClasses.blocks innerShellBlocks;
+        public JSONUtilityClasses.blocks innerBlocks;
+        public JSONUtilityClasses.blocks fillBlocks;
+        public String[] fillerTypes;
+        public String[] clusters;
+        public int chance;
+        public int crackChance;
+        public int minYLevel;
+        public int maxYLevel;
+        public String placement;
+        public String rarity;
+        public boolean generateSample;
+        public JSONUtilityClasses.sampleBlocks[] sampleBLocks;
     }
 }

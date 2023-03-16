@@ -1,13 +1,13 @@
 package com.kanzaji.eedatagen.jsons;
 
 public class Strata {
-    public static String id;
-    public static String baseTexture;
-    public static String suffix;
-    public static String fillerType;
-    public static String localizedName;
-    public static String harvestTool;
-    public static float hardness;
-    public static float resistance;
-    public static boolean sampleStrata;
+    public String id;
+    public String baseTexture;
+    public String suffix;
+    public String fillerType;
+    public String localizedName;
+    public String harvestTool;
+    public float hardness;
+    public float resistance;
+    public boolean sampleStrata;
 }

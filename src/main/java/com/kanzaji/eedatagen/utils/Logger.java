@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Logger {
     private static Logger instance = null;
     private boolean disabled = false;
-    Path logFile = Path.of(".", "Cat-Downloader.log");
+    Path logFile = Path.of(".", "EE Data Generator.log");
 
     /**
      * Used to get an instance of the Logger. Creates new one at first use.
