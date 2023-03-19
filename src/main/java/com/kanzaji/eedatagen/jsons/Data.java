@@ -1,9 +1,18 @@
 package com.kanzaji.eedatagen.jsons;
 
-public class Data {
-    public Materials[] materials;
+import com.kanzaji.eedatagen.jsons.deposits.VanillaDeposit;
 
-    public static class Materials extends Material {
+public class Data {
+    public Deposits[] deposits;
+
+    public static class Deposits extends VanillaDeposit {
         public String template;
+        public String name;
+        public int chance;
+        public int size;
+        public String material;
+        public int max;
+        public int min;
+        public String addon;
     }
 }
