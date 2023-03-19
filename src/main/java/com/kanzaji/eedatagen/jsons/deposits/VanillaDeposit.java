@@ -1,8 +1,6 @@
 package com.kanzaji.eedatagen.jsons.deposits;
 
-import com.kanzaji.eedatagen.jsons.JSONUtilityClasses;
-
-public class Sphere {
+public class VanillaDeposit {
     public String type;
     public String dimension;
     public String[] biomes;
@@ -10,15 +8,15 @@ public class Sphere {
     public Config config;
 
     public static class Config {
-        public JSONUtilityClasses.blocks[] blocks;
+        // Material/Block for the deposit, ONE ONLY
+        public String material;
+        public String block;
         public String[] fillerTypes;
         public int chance;
-        public int radius;
+        public int size;
         public int minYLevel;
         public int maxYLevel;
         public String placement;
         public String rarity;
-        public boolean generateSample;
-        public JSONUtilityClasses.sampleBlocks[] sampleBLocks;
     }
 }

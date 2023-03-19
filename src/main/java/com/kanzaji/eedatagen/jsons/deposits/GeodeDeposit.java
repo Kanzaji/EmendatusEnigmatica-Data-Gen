@@ -2,7 +2,7 @@ package com.kanzaji.eedatagen.jsons.deposits;
 
 import com.kanzaji.eedatagen.jsons.JSONUtilityClasses;
 
-public class Geode {
+public class GeodeDeposit {
     public String type;
     public String dimension;
     public String[] biomes;

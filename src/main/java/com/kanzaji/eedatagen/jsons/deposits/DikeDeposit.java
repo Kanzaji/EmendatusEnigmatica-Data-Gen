@@ -1,6 +1,8 @@
 package com.kanzaji.eedatagen.jsons.deposits;
 
-public class Vanilla {
+import com.kanzaji.eedatagen.jsons.JSONUtilityClasses;
+
+public class DikeDeposit {
     public String type;
     public String dimension;
     public String[] biomes;
@@ -8,9 +10,7 @@ public class Vanilla {
     public Config config;
 
     public static class Config {
-        // Material/Block for the deposit, ONE ONLY
-        public String material;
-        public String block;
+        public JSONUtilityClasses.dikeBlocks[] blocks;
         public String[] fillerTypes;
         public int chance;
         public int size;
@@ -18,5 +18,7 @@ public class Vanilla {
         public int maxYLevel;
         public String placement;
         public String rarity;
+        public boolean generateSample;
+        public JSONUtilityClasses.sampleBlocks[] sampleBLocks;
     }
 }

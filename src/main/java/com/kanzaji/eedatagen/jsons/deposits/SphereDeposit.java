@@ -2,7 +2,7 @@ package com.kanzaji.eedatagen.jsons.deposits;
 
 import com.kanzaji.eedatagen.jsons.JSONUtilityClasses;
 
-public class Dike {
+public class SphereDeposit {
     public String type;
     public String dimension;
     public String[] biomes;
@@ -10,10 +10,10 @@ public class Dike {
     public Config config;
 
     public static class Config {
-        public JSONUtilityClasses.dikeBlocks[] blocks;
+        public JSONUtilityClasses.blocks[] blocks;
         public String[] fillerTypes;
         public int chance;
-        public int size;
+        public int radius;
         public int minYLevel;
         public int maxYLevel;
         public String placement;
